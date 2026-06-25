@@ -1,10 +1,10 @@
-# Customer Analysis Dashboard w/ Tableau
+# Customer Analysis Dashboard with Tableau
 
 <a href="https://public.tableau.com/app/profile/emma.dao/viz/ContosoDashboards_17763863673810/CustomerSegmentation" target="_blank">
-  <img src="images/1_customer_segmentation_dashboard.png" alt="Contoso Customer Analysis Dashboard Overview">
+<img src="images/1_customer_segmentation_dashboard.png" alt="Contoso Customer Analysis Dashboard Preview">
 </a>
 
-> <a href="https://public.tableau.com/app/profile/emma.dao/viz/ContosoDashboards_17763863673810/CustomerSegmentation" target="_blank">📊 View interactive dashboards here on the Tableau Public</a>
+<a href="https://public.tableau.com/app/profile/emma.dao/viz/ContosoDashboards_17763863673810/CustomerSegmentation" target="_blank">📊 *View interactive dashboards here on the Tableau Public*</a>
 
 ---
 
@@ -47,18 +47,18 @@ You can find the file for the dashboards here:
 
 ---
 
-## Dashboard Overview
-*Three dashboards tell the complete customer story — from who is valuable, to how cohorts perform over time, to who the business is losing.*
+## Dashboards
+*Three dashboards tell the complete customer story - from who is valuable, to how cohorts perform over time, to who the business is losing.*
 
 ---
 
-### Dashboard 1 — Customer Segmentation Analysis
+### Dashboard 1 - Customer Segmentation Analysis
 
 <img src="images/1_customer_segmentation_dashboard.png" alt="Customer Segmentation Dashboard" style="width: 100%; height: auto;">
 
 Question: **Who are our most valuable customers?**
 
-**Key KPIs:** Total Revenue · Total Customers · High-Value Customer Count · Avg Revenue per Customer · High-Value Avg Revenue
+**Key KPIs:** Total Revenue, Total Customers, High-Value Customer Count, Avg Revenue per Customer, High-Value Avg Revenue
 
 **Charts:**
 - Revenue distribution by segment (Absolute $ bar chart)
@@ -77,36 +77,36 @@ Question: **Who are our most valuable customers?**
 
 ---
 
-### Dashboard 2 — Cohort Analysis
+### Dashboard 2 - Cohort Analysis
 
 <img src="images/2_cohort_dashboard.png" alt="Cohort Analysis Dashboard" style="width: 100%; height: auto;">
 
 Questions: **Are newer customers worth as much as older ones, and where is revenue coming from each year?**
 
-**Key KPIs:** Best Cohort Avg Revenue · Best Cohort Year · Largest Cohort Size · Largest Cohort Year
+**Key KPIs:** Best Cohort Avg Revenue, Best Cohort Year, Largest Cohort Size, Largest Cohort Year
 
 **Charts:**
 - Average customer revenue by cohort year (Unadjusted)
-- Customer revenue by first purchase year — Adjusted for time in market
+- Customer revenue by first purchase year - Adjusted for time in market
 - Cohort year impact on yearly net revenue (Stacked bar by purchase year)
 - Monthly revenue and customer count trend (Dual-axis)
 
 📊 **Key Findings:**
 - Revenue per customer (Unadjusted) has **declined 65%** from $5,618 (2015 cohort) to $1,941 (2024 cohort)
-- This decline holds even after adjusting for time in market — newer cohorts are intrinsically less valuable, not just younger
+- This decline holds even after adjusting for time in market - newer cohorts are intrinsically less valuable, not just younger
 - 2020 saw a dramatic drop in new customer acquisition, likely reflecting COVID-19 impact on store traffic
 - 2022 was the peak acquisition year (9,010 customers) but with the relatively low per-customer value at that point
-- Each year's revenue is almost entirely driven by that year's new cohort — older cohorts contribute tiny slivers, confirming low retention
+- Each year's revenue is almost entirely driven by that year's new cohort - older cohorts contribute tiny slivers, confirming low retention
 
 Note that: The dataset was collected until April 2024
 
 💡 **Business Insights:** 
-- The business is on a treadmill — total revenue is maintained only by continuously acquiring new customers because existing ones do not return. 
+- The business is on a treadmill - total revenue is maintained only by continuously acquiring new customers because existing ones do not return. 
 - Both acquisition quality and retention are declining simultaneously, creating compounding revenue risk.
 
 ---
 
-### Dashboard 3 — Retention & Churn Analysis
+### Dashboard 3 - Retention & Churn Analysis
 
 <img src="images/3_retention_dashboard.png" alt="Retention and Churn Dashboard" style="width: 100%; height: auto;">
 
@@ -117,16 +117,16 @@ Questions: **How many customers have churned, who is at risk right now, and how 
 - At Risk = 90–180 days inactive. 
 - Customers acquired within the last 6 months are excluded from churn calculations.
 
-**Key KPIs:** Total Churned · Total At-Risk · Revenue Churned · Revenue at Risk · Churn Rate %
+**Key KPIs:** Total Churned, Total At-Risk, Revenue Churned, Revenue at Risk, Churn Rate %
 
 **Charts:**
-- Churn status distribution by cohort year (100% stacked bar — Active / At Risk / Churned)
+- Churn status distribution by cohort year (100% stacked bar - Active / At Risk / Churned)
 - Days since last purchase histogram (30-day bins, color-coded by churn status)
 
 📊 **Key Findings:**
-- Churn rate is approximately **91%** across all cohorts — the vast majority of customers never return after their first year
+- Churn rate is approximately **91%** across all cohorts - the vast majority of customers never return after their first year
 - $174M of the $206M Total LTV (84%) came from customers who have churned - indicating that the business has almost no active loyal customer base
-- Churn is **systemic** — consistent across all cohorts and years, meaning it is a structural problem not tied to any specific event or year
+- Churn is **systemic** - consistent across all cohorts and years, meaning it is a structural problem not tied to any specific event or year
 - At-Risk customers (90–180 days inactive) represent an active intervention window before permanent churn
 - Older cohorts (2015–2019) have higher churned revenue per customer because those customers had higher lifetime value before churning
 
